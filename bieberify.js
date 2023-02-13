@@ -1,0 +1,1 @@
+javascript:(function()%7B%2F%2F Replace all images on the page with a picture of Justin Bieber%0AArray.prototype.slice.call(document.querySelectorAll('img')).map(%0A    function(el) %7B%0A        el.src %3D%0A            '%2F%2Fcodebox.net%2Fassets%2Fimages%2Fmonkeyshine%2Fbieber.jpg'%3B%0A    %7D)%3B%7D)()%3B
