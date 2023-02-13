@@ -1,0 +1,1 @@
+javascript:(function()%7B%2F%2F Rotate page 180%0A%5B''%2C '-ms-'%2C '-webkit-'%2C '-o-'%2C '-moz-'%5D.map(function(prefix) %7B%0A    document.body.style%5Bprefix %2B 'transform'%5D %3D%0A        'rotate(180deg)'%3B%0A%7D)%3B%7D)()%3B
